@@ -48,5 +48,6 @@ p {
 body {
     background-color: rgb(110, 110, 43);
     background-image: url(world-map.png);
+    background-position: 50% 50%;
 }
 
