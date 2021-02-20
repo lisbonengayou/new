@@ -7,11 +7,15 @@ h1 {
     margin-left: 5px;
     text-align: right;
     padding-top: 10px;
+    border: solid 5px red; 
+    
 }
 .first {
     font-size: 30px;
     text-align: center;
     background-color: chartreuse;
+    font-weight: bold;
+
 }
 
 .container {
@@ -21,6 +25,7 @@ h1 {
     padding-bottom: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: solid 5px rgb(71, 15, 15);
 }
 p {
     background-color: lightblue;
@@ -50,4 +55,40 @@ body {
     background-image: url(world-map.png);
     background-position: 50% 50%;
 }
+#head {
+    text-align: center;
+    background-color:rgba(56, 125, 156, 0.699);
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: auto;
+    color: white
+}
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: cursive;
+}
+a {
+    color: blue
+  
+}
+li {
+    margin-bottom: 30px; 
+    font-size: 30px;
+}
+a:visited {
+    color: darkgrey;
+}
+a:hover {
+    color: yellow
+} 
+a:active{
+    color: red;
+}
+li {
+    list-style-type: circle;
+}
+
 
