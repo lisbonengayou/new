@@ -45,4 +45,8 @@ p {
    margin-left: 10px;
    margin-right: 10px;
 }
+body {
+    background-color: rgb(110, 110, 43);
+    background-image: url(world-map.png);
+}
 
