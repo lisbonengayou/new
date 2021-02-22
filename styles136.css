@@ -1,0 +1,17 @@
+h1 {
+    background-color: rgb(59, 202, 207);
+    padding: 15px;
+} 
+h2 {
+    background-color: rgb(228, 160, 112);
+    padding: 15px;
+    width: 500px;
+}
+button {
+    padding: 15px;
+    margin: 20px; 
+
+}
+h2 button {
+    width: 200px;
+}
