@@ -1,21 +1,28 @@
 h1 {
     background-color: rgb(59, 202, 207);
     padding: 15px;
-} 
-h2 {
-    background-color: rgb(228, 160, 112);
-    padding: 15px;
-    width: 500px;
-
 }
-button {
+h1 button {
     padding: 15px;
-    margin: 20px; 
-
-
+    margin: 10px;
+    background-color: darkviolet;
+    color: floralwhite;
+    
 }
-h2 button {
-    width: 200px;
-    background-color: rgb(88, 88, 151);
- 
+ div {
+padding: 15px;
+margin-top:  40px;
+background-color: rgb(207, 77, 201);
+ width: 500px;
+ display: inline-block;
+ box-sizing: border-box;
+ }
+div button {
+    width: 45%;
+    margin-right: 5%;
+    border: solid 1px red;
+    float: left;
+    background-color: khaki;
+    color: rgb(40, 15, 150);
+    padding: 10px;
 }
