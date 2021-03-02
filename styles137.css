@@ -1,0 +1,22 @@
+ .container {
+     display: inline-block;
+     padding: 10px;
+     background: linear-gradient(to right,
+     #eeeeee 25%,
+     #cccccc 25%,
+     #cccccc 50%,
+     #eeeeee 50%,
+     #eeeeee 75%,
+     #cccccc 75%,
+     #cccccc 100%);   
+}
+.cont {
+ float: left;
+ width: 25%;
+ height: 100%;
+
+
+}
+ 
+
+ 
