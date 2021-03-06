@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+header {
+    background-color: rgb(195, 216, 195);
+    padding: 10px;
+}
+.btn {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3%;
+    border: solid 1px green;
+    background-color: rgb(74, 110, 74);
+    color: white;
+    margin: 10px;
+}
+.btn-contacts {
+    width: 300px;
+}
+.container {
+    display:inline-flex;
+    margin: 15px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border: solid 1px rgb(84, 194, 103);
+    margin: 15px;
+}
+.contacts-text {
+    height: 130px;
+}
