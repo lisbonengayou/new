@@ -38,14 +38,9 @@ background-image: url(./space.jpg);
     height: 100px;
     border-radius: 50%;
 }
-.sun:hover {
+.planet .sun:hover {
     transform: scale(1.2);
 }
-.planet:hover {
-    transform: scale(1.2);
-    
-}
-
 
 .mars-orbit:hover {
       animation-play-state: paused;
