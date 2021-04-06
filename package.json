@@ -16,5 +16,7 @@
     "url": "https://github.com/lisbonengayou/new/issues"
   },
   "homepage": "https://github.com/lisbonengayou/new#readme",
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
