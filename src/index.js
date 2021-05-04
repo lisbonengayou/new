@@ -1,45 +1,47 @@
-//Используя конструкцию if..else, напишите код, который будет спрашивать: „Какое «официальное» название JavaScript?“
+/*У вас есть массив объектов user, и в каждом из них есть 
+user.name. Напишите код, 
+который преобразует их в массив имён.
+user = [
+  { name: "John", age: 25 },
+  { name: "Pete", age: 30 },
+  { name: "Mary", age: 28 },
+]
 
-//Если пользователь вводит «ECMAScript», то показать: «Верно!», в противном случае – отобразить: «Не знаете? ECMAScript!»
+let newuser =  user.map(obj=> obj.name )
+console.log(newuser)
 
-let  test= prompt("What's the “official” name of JavaScript?","");
+У вас есть массив объектов user, и у 
+каждого из объектов есть name, surname и id.
 
-if (test== "ECMAScript") { 
-   alert('You are right!' );
-} else {
-    alert("You don't know? “ECMAScript”!");
-}
+Напишите код, который создаст ещё один массив объектов с
+ параметрами id и fullName, где fullName – состоит из name 
+ и surname.
 
-//Используя конструкцию if..else, напишите код, который получает число через prompt, а затем выводит в alert:
-//1, если значение больше нуля,
-//-1, если значение меньше нуля,
-//0, если значение равно нулю.
-//Предполагается, что пользователь вводит только числа.
+ user2 =[
+{ name: "John", surname: "Smith", id: 1 },
+{ name: "Pete", surname: "Hunt", id: 2 },
+{ name: "Mary", surname: "Key", id: 3 },
+]
 
- let testl= prompt("gess the number","");
-
- if (testl > 0){
-     alert(1);
- } else if (testl < 0) {
-    alert(-1);
- }else{  
-     alert(0);
- }
+ let user2map = user2.map( user =>({
+        fullName: `${user.name} ${user.surname}`,
+        id: user.id  
+ }));
+  
+     console.log(user2map)
+     console.log(user2map[2].fullName)*/
 
 
-//Перепишите 'if' в '?'
+     //let test= prompt("gess the number",);
 
-//let testm= (a + b < 4)? 'below': 'Over';
+    // if (test > 0){
+    //     console.log(1);
+    // } else if (test < 0) {
+     //   console.log(-1);
+     //}else{  
+      //   console.log(0);
+     //}
 
-//Перепишите 'if..else' в '?'
-
-let login = prompt("login?","");
-
-let message = (login== "employee")? "hello":
-              (login== "director")? "greetings":
-              (login== "")? "no login":
-              "";
-    alert(message);
-
+      
  
 

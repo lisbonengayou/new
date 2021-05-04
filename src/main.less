@@ -1,7 +1,26 @@
- @main-color: blue;
+ 
+ @main-color:blue;
+ @secondary-font-size: 30px;
+ @main-border: solid, black, 50px;
+ @bgd-color: yellow;
+ @main-border-radius: 30px;
+
+  
  h1 {
-     color: @main-color;
+     background-color: @main-color;
  }
- p {
-     color: @main-color;
- }
+  div {
+      border: @main-border;
+      font-size: @secondary-font-size;
+background-color: @bgd-color;
+  }
+  p {
+      border-radius: @main-border-radius;
+      border: @main-border;
+      font-size: @secondary-font-size;
+      border: color(green), solid, 20px;
+  }
+  h2 {
+      font-weight: 10px;
+      background-color: @bgd-color;
+  }
